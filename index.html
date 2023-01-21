@@ -4,59 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="estilo.css">
-    <title>Sites.com</title>
+    <title>Cards</title>
 </head>
 <body>
-    
-    <div id="conteiner">
-        <div id="menu">
-            <button id="menu-mobile">MENU</button>
-            <table >
-                <tr >
-                    <ul id="nav-menu">
-                        <li class="barra-menu">FUNDOS</li>
-                        <li class="barra-menu">TEXTURA</li>
-                        <li class="barra-menu">NATUREZA</li>
-                        <li class="barra-menu">CIDADE</li>
-                        <li class="barra-menu">ESPORTE</li>
-                        <li class="barra-menu">EDUCAÇÃO</li>
-                        <li class="barra-menu">VIAGENS</li>
-                        <li class="barra-menu">NEGOCIOS</li>
-                        <li class="barra-menu">PRAIAS</li>
-                    </ul>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <ul id="barra-menu-mobile">
-                        <li class="barra-menu-mobile">HOME</li>
-                        <li class="barra-menu-mobile">HOME</li>
-                        <li class="barra-menu-mobile">HOME</li>
-                        <li class="barra-menu-mobile">HOME</li>
-                    </ul>
-                </tr>
-            </table>
+    <div >
+        <div id="horas"></div>
+    </div>
+    <div class="conteiner">
+        <div class="conteiner-car-small">
+            <div class="card-small">Eu botão 1</div>
+            <div class="card-small">Eu botão 2</div>
+            <div class="card-small">Eu botão 3</div>
+            <div class="card-small">Eu botão 4</div>
+            <div class="card-small">Eu botão 5</div>
+            <div class="card-small">Eu botão 6</div>
+            <div class="card-small">Eu botão 7</div>
+            <div class="card-small">Eu botão 8</div>
+            <div class="card-small">Eu botão 9</div>
+            <div class="card-small">Eu botão 10</div>
+            <div class="card-small">Eu botão 11</div>
+            <div class="card-small">Eu botão 12</div>
+        </div>
+        <div onclick="expandir()" id="conteiner-car-small-mobile">
+            <div class="card-small"><i class='bx bx-right-arrow-alt'></i></div>
         </div>
         
-        <div id="conteudo">
-            <div id="conteudo-esquerda"><img src="imagens/imagem-2.jpg" alt=""></div>
-            <div class="conteudo-direita">
-                <div id="imagens-conteudo" >
-                        <div class="ajuste">
-                            <li onclick="um()" id="um" class="conteiner-imagens"><img src="./imagens/imagem-1.jpg" alt=""></li>
-                            <li onclick="dois()" id="dois" class="conteiner-imagens"><img src="./imagens/imagem-2.jpg" alt=""></li>
-                            <li onclick="tres()" id="tres" class="conteiner-imagens"><img src="./imagens/imagem-3.jpg" alt=""></li>
-                        </div>
-                   <div class="ajuste">
-                            <li onclick="quatro()" id="quatro" class="conteiner-imagens"><img src="./imagens/imagem-4.jpg" alt=""></li>
-                            <li onclick="cinco()" id="cinco" class="conteiner-imagens"><img src="./imagens/imagem-5.jpg" alt=""></li>
-                            <li onclick="seis()" id="seis" class="conteiner-imagens"><img src="./imagens/imagem-6.jpg" alt=""></li>
-                        </div>
-                </div>
-
-            </div>
-            
+        <div class="conteiner-cards-big">
+            <div class="card-big"><img src="./imagem/imagem-1.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-2.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-3.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-4.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-5.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-6.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-8.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-9.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-1.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-2.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-3.jpg" alt=""></div>
+            <div class="card-big"><img src="./imagem/imagem-4.jpg" alt=""></div>
         </div>
     </div>
 

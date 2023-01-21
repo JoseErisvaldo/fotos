@@ -1,55 +1,57 @@
 
-
-clicar.addEventListener('click', um)
-
-function um () {
-    let um = document.getElementById('conteudo-esquerda').innerHTML = " <img src='./imagens/imagem-1.jpg'> "
+/*
+function up () {
+    let clicar = document.querySelector('.card-big')
+    clicar.style.width = '50%'
+    clicar.style.height = '750px'
+    clicar.style.position = 'absolute'
+    clicar.style.display = 'flex'
+    clicar.style.margin = '50px'
 }
 
-clicar.addEventListener('click', dois)
+function up2 () {
+    let clicar = document.querySelector('.card-big2')
+    clicar.style.width = '50%'
+    clicar.style.height = '750px'
+    clicar.style.position = 'absolute'
+    clicar.style.display = 'flex'
+    clicar.style.margin = '50px'
+}*/
+/*
+capturar.addEventListener('click', expandir)
 
-function dois () {
-    let dois = document.getElementById('conteudo-esquerda').innerHTML = " <img src='./imagens/imagem-2.jpg'> "
-}
-clicar.addEventListener('click', tres)
 
-function tres () {
-    let tres = document.getElementById('conteudo-esquerda').innerHTML = " <img src='./imagens/imagem-3.jpg'> "
-}
+function expandir () {
+    let capturar = document.getElementById('conteiner-car-small-mobile')
 
-clicar.addEventListener('click', quatro)
 
-function quatro () {
-    let quatro = document.getElementById('conteudo-esquerda').innerHTML = " <img src='./imagens/imagem-4.jpg'> "
-}
+}*/
 
-clicar.addEventListener('click', cinco)
+function data () {
+    let horas = new Date()
+    let d = horas.getDate()
+    let m = horas.getMonth()+1
+    let a = horas.getFullYear()
 
-function cinco () {
-    let cinco = document.getElementById('conteudo-esquerda').innerHTML = " <img src='./imagens/imagem-5.jpg'> "
-}
+    let h = horas.getHours()
+    let mi = horas.getMinutes()
+    let mil = horas.getSeconds()
 
-clicar.addEventListener('click', seis)
-
-function seis () {
-    let seis = document.getElementById('conteudo-esquerda').innerHTML = " <img src='./imagens/imagem-6.jpg'> "
-}
-
-clicar.addEventListener('click', sete)
-
-function sete () {
-    let sete = document.getElementById('conteudo-esquerda').innerHTML = " <img src='./imagens/imagem-7.jpg'> "
-}
-
-clicar.addEventListener('click', oito)
-
-function oito () {
-    let oito = document.getElementById('conteudo-esquerda').innerHTML = " <img src='./imagens/imagem-8.jpg'> "
+    let mostrar = d + ':' + m + ':' + a + ' - ' + h + ':' + mi + ':' + mil
+    console.log(mostrar)
+    document.getElementById('horas').innerHTML = mostrar
+  
 }
 
-clicar.addEventListener('click', nove)
+let repetir = setInterval(data, 1000)
 
-function nove () {
-    let nove = document.getElementById('conteudo-esquerda').innerHTML = " <img src='./imagens/imagem-9.jpg'> "
-}
+
+
+
+
+
+
+
+
+
 
